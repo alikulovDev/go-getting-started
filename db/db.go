@@ -1,4 +1,4 @@
-package db
+package db_cennetion
 
 import (
 	"database/sql"
@@ -60,4 +60,8 @@ func setupDB() *sql.DB {
 	checkErr(err)
 
 	return db
+}
+
+func sayHello() {
+	fmt.Println("Helloe")
 }
