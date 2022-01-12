@@ -27,6 +27,7 @@ func helloWorld(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	fmt.Println("Go ORM Tutorial")
+	routs.sayHello()
 	// db_cennetion.sayHello()
 	// db_connection()
 	// handleRequest()
